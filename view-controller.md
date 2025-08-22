@@ -1,3 +1,6 @@
+---
+sort: 3
+---
 # コントローラとビュー
 
 ## コントローラの修正
@@ -8,6 +11,7 @@ Laravelにおける`show`というメソッド名は、一般的に、「IDな�
 
 `app/Http/Controllers/ItemController.php` を以下のように修正してください。
 
+{% raw %}
 ```php
 <?php
 
