@@ -59,7 +59,7 @@ class ItemController extends Controller
 Route::get('item/show/{item}', [ItemController::class, 'show'])->name('item.show');
 ```
 
-**`resources/views/index.blade.php`**
+**`resources/views/item/index.blade.php`**
 
 ```php
 // ルーティングの定義を一致させるために、['item' => $item->ident]で`item`という名前で指定した商品番号を渡している
